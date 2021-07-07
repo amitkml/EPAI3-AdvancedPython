@@ -46,7 +46,7 @@ def calculate_random_profile_info_named_tuple_tc():
     assert any(["mean_current_location" in o for o in list(value_namedtuple.keys())])
     assert any(["oldest_person_age" in o for o in list(value_namedtuple.keys())])
     assert any(["average_age" in o for o in list(value_namedtuple.keys())])
-    assert (value_namedtuple['largest_blood_type']) > 0
+    assert (value_namedtuple['largest_blood_type']) > 0 
     assert (value_namedtuple['mean_current_location']) > 0
     assert (value_namedtuple['oldest_person_age']) > 0
     assert (value_namedtuple['average_age']) > 0  
