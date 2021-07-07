@@ -14,7 +14,7 @@ def calculate_random_profile_info(no=10000,
 
     Returns
     -------
-    calculate_stats.
+    calculate_stats through closure.
 
     """
     no = no
