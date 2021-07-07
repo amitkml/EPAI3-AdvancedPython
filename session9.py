@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Jul  6 11:53:11 2021 for Assignment 9
+Created on Tue Jul  6 11:53:11 2021 for Assignment 9 on namedtuple
 
 @author: AKayal
 """
