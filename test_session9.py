@@ -52,6 +52,8 @@ def calculate_random_profile_info_named_tuple_tc():
     assert (value_namedtuple['oldest_person_age']) > 0
     assert (value_namedtuple['average_age']) > 0  
 
+
+    
 def calculate_random_profile_info_dictionary_tc():
     
     """
@@ -72,6 +74,8 @@ def calculate_random_profile_info_dictionary_tc():
     assert (value_namedtuple['mean_current_location']) > 0
     assert (value_namedtuple['oldest_person_age']) > 0
     assert (value_namedtuple['average_age']) > 0  
+
+    
     
 def calculate_share_market_profile_tc():
     
