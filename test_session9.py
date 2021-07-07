@@ -28,6 +28,7 @@ def test_readme_contents():
 def test_function_name_had_cap_letter():
     functions = inspect.getmembers(session8, inspect.isfunction)
     for function in functions:
+        print(f"Name:{function}")
         assert len(re.findall('([A-Z])', function[0])) == 0, "You have used Capital letter(s) in your function names"
 
 def calculate_random_profile_info_named_tuple_tc():

@@ -9,7 +9,7 @@ from decimal import *
 def calculate_random_profile_info(no=10000,
                                   convert_nmd_tuple = True):
     """
-    This function will call the Faker library to get 10000 random profiles. It will then using namedtuple, 
+    this function will call the Faker library to get 10000 random profiles. It will then using namedtuple, 
     will calculate the largest blood type, mean-current_location, oldest_person_age, and average age. 
 
     Returns
@@ -50,7 +50,7 @@ def calculate_random_profile_info(no=10000,
     
     def calculate_stats():
         """
-        This function will refer the namedtuple earlier and faker data to calculate stats
+        this function will refer the namedtuple earlier and faker data to calculate stats
         -------
         calculate_stats.
         """
@@ -76,17 +76,17 @@ def calculate_random_profile_info(no=10000,
         
     return calculate_stats
 
-value = calculate_random_profile_info()()
-print(f"Faker profile namedtuple output:{value}")
+#value = calculate_random_profile_info()()
+#print(f"Faker profile namedtuple output:{value}")
 
 
-value_dic = calculate_random_profile_info(convert_nmd_tuple = False)()
-print(f"Faker profile dictionary output:{value_dic}")
+#value_dic = calculate_random_profile_info(convert_nmd_tuple = False)()
+#print(f"Faker profile dictionary output:{value_dic}")
         
 
 def calculate_share_market_profile(no=100):
     """
-    This function will call the Faker library to get 500 company name. It will then generate random number for high, low and close figures in share market for these shares
+    this function will call the Faker library to get 500 company name. It will then generate random number for high, low and close figures in share market for these shares
     The company profile has been generated from random string also. Then the inner function calculate the market stats and return through closure. 
 
     Returns
@@ -129,7 +129,7 @@ def calculate_share_market_profile(no=100):
     
     def calculate_market_stats():
         """
-        This function will refer the namedtuple earlier and faker data to calculate stats
+        this function will refer the namedtuple earlier and faker data to calculate stats
         -------
         calculate_stats.
         """
@@ -148,6 +148,6 @@ def calculate_share_market_profile(no=100):
     return calculate_market_stats
 
 
-value_dic_stockmarket = calculate_share_market_profile()()
-print(f"Stock market daily status:{value_dic_stockmarket}")
+#value_dic_stockmarket = calculate_share_market_profile()()
+#print(f"Stock market daily status:{value_dic_stockmarket}")
       
